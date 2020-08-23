@@ -145,20 +145,20 @@ div.divider{
 
 .analytics_icon_l{
 	position: absolute;
-    top: 9%;
+    top: 13%;
     left: 16%;
 }
 
 .cards_icon_l{
 	position: absolute;
-    top: 8%;
+    top: 12%;
     left: 43%;
 }
 
 .payments_icon_l{
 	position: absolute;
-    top: 16%;
-    left: 67%;
+    top: 18%;
+    left: 70%;
 }
 
 .loan_icon_l{
@@ -170,7 +170,7 @@ div.divider{
 .support_icon_l{
 	position: absolute;
     top: 40%;
-    left: 78%;
+    left: 75%;
 }
 
 .onebanc_guy{
