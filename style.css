@@ -9,8 +9,8 @@ body{
 }
 
 .parent_layout div {
-	border:1px #ccc solid;
-    /*padding:10px;*/
+	/*border:1px #ccc solid;
+    padding:10px;*/
     flex:3;
 }
 
@@ -115,58 +115,59 @@ div.divider{
 
 .title {
 	font: 10px "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+	text-align: center;
 }
 
 
-.rewards_icon{
+.rewards_icon_l{
 	position: absolute;
     top: 52%;
     left: 10%;
 }
 
-.savings_icon{
+.savings_icon_l{
 	position: absolute;
     top: 41%;
     left: -2%;
 }
 
-.investments_icon{
+.investments_icon_l{
 	position: absolute;
     top: 29%;
     left: -7%;
 }
 
-.forex_icon{
+.forex_icon_l{
 	position: absolute;
     top: 20%;
     left: -2%;
 }
 
-.analytics_icon{
+.analytics_icon_l{
 	position: absolute;
     top: 9%;
     left: 16%;
 }
 
-.cards_icon{
+.cards_icon_l{
 	position: absolute;
     top: 8%;
     left: 43%;
 }
 
-.payments_icon{
+.payments_icon_l{
 	position: absolute;
     top: 16%;
     left: 67%;
 }
 
-.loan_icon{
+.loan_icon_l{
 	position: absolute;
     top: 30%;
     left: 81%;
 }
 
-.support_icon{
+.support_icon_l{
 	position: absolute;
     top: 40%;
     left: 78%;
@@ -188,4 +189,78 @@ div.divider{
 
 .left_big, .right_big, .left_small, .right_small{
 	position: absolute;
+}
+
+.left_big{
+	top: 25%;
+    left: 82%;
+}
+
+.right_big{
+	top: 25%;
+    left: 92%;
+}
+
+.left_small{
+	top: 11%;
+    left: 87%;
+}
+
+.right_small{
+	top: 13%;
+    left: 92%;
+}
+
+.rewards_icon_r{
+	position: absolute;
+	top: 20%;
+    left: 85%;
+}
+
+.savings_icon_r{
+	position: absolute;
+	top: 17%;
+    left: 89%;
+}
+
+.investments_icon_r{
+	position: absolute;
+	top: 10%;
+    left: 81%;
+}
+
+.forex_icon_r{
+	position: absolute;
+    top: 8%;
+    left: 89%;
+}
+
+.analytics_icon_r{
+	position: absolute;
+	left: 95%;
+    top: 7%;
+}
+
+.cards_icon_r{
+	position: absolute;
+	top: 39%;
+    left: 89%;
+}
+
+.payments_icon_r{
+	position: absolute;
+	top: 25%;
+    left: 92%;
+}
+
+.loan_icon_r{
+	position: absolute;
+	top: 29%;
+    left: 88%;
+}
+
+.support_icon_r{
+	position: absolute;
+	top: 17%;
+    left: 94%;
 }
