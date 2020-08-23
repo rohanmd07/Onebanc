@@ -1,0 +1,191 @@
+
+body{
+  margin:0;
+}
+
+.parent_layout {
+	display: flex;
+	min-height: 100vh;
+}
+
+.parent_layout div {
+	border:1px #ccc solid;
+    /*padding:10px;*/
+    flex:3;
+}
+
+div.left_portion {
+	background-color: #0273b2;
+	flex:2;
+}
+
+
+div.class_content{
+	margin-left: 35px;
+    margin-top: 30px;
+}
+
+/*div.company_logo {
+	margin-left: 10px;
+    margin-top: 10px;
+}*/
+
+div.blank_space1 { 
+	height:30px;
+}
+
+#line1, #line2, #line3, .company_statement {
+    color: #fff;
+    font: 55px "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+} 
+
+.company_statement{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+} 
+
+.company_statement p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.early_invitation {
+    color: #fff;
+    height: 60px;
+    width: 345px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #004da3;
+    font-family: "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+} 
+
+
+.download_options{
+	margin-top: 75px;
+}
+
+.final_section{
+	font-size: 10px;
+	font-family: "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;;
+	text-decoration: none;
+    color: white;
+}
+
+div.important_links a {
+	/*font-size: 2px;*/
+	text-decoration: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.copyright p{
+	font-size: 12px;
+}
+
+div.middle_portion{
+	flex:0.25;
+}
+
+.right_portion{
+	display: flex;
+}
+
+div.divider{
+	flex: 0.25;
+	position: relative;
+}
+
+#divider_img{
+	position: absolute;
+    top: 120px;
+}
+
+.normal_bank_guy{
+	position: relative;
+}
+
+.normal_guy_pic{
+	position: absolute;
+	top: 25%;
+    left: 20%;
+}
+
+.title {
+	font: 10px "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+}
+
+
+.rewards_icon{
+	position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+.savings_icon{
+	position: absolute;
+    top: 41%;
+    left: -2%;
+}
+
+.investments_icon{
+	position: absolute;
+    top: 29%;
+    left: -7%;
+}
+
+.forex_icon{
+	position: absolute;
+    top: 20%;
+    left: -2%;
+}
+
+.analytics_icon{
+	position: absolute;
+    top: 9%;
+    left: 16%;
+}
+
+.cards_icon{
+	position: absolute;
+    top: 8%;
+    left: 43%;
+}
+
+.payments_icon{
+	position: absolute;
+    top: 16%;
+    left: 67%;
+}
+
+.loan_icon{
+	position: absolute;
+    top: 30%;
+    left: 81%;
+}
+
+.support_icon{
+	position: absolute;
+    top: 40%;
+    left: 78%;
+}
+
+.onebanc_guy{
+	position: relative;
+}
+
+.onebanc_guy_pic{
+	position: absolute;
+	/*z-index: -10;*/
+    top: 30%;
+}
+
+/*.funnel_shaped_structure{
+	position: relative;
+}*/
+
+.left_big, .right_big, .left_small, .right_small{
+	position: absolute;
+}
