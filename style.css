@@ -15,7 +15,7 @@ body{
 }
 
 div.left_portion {
-	background-color: #0273b2;
+	background-color: #0283cc;
 	flex:2;
 }
 
@@ -53,8 +53,9 @@ div.blank_space1 {
 
 .early_invitation {
     color: #fff;
-    height: 60px;
-    width: 345px;
+    height: 77px;
+    width: 376px;
+    position: relative;
     margin-top: 15px;
     font-size: 18px;
     border-radius: 5px;
@@ -62,6 +63,28 @@ div.blank_space1 {
     font-family: "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
 } 
 
+.invitation_text{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+
+.enter_email{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}    
+
+.enter_button{
+	position: absolute;
+    left: 99%;
+    top: 0px;
+}
+
+#email {
+	height: 36px;
+}
 
 .download_options{
 	margin-top: 75px;
